@@ -17,7 +17,7 @@ public partial struct DancerSystem : ISystem
         {
             var t = dancer.ValueRO.Speed * elapsed;
             var y = math.abs(math.sin(t)) * 0.1f;
-            var bank = math.cos(0.8f * t) * 0.5f;
+            var bank = math.cos(t) * 0.5f;
 
             var fwd = xform.ValueRO.Forward();
             var rot = quaternion.AxisAngle(fwd, bank);
