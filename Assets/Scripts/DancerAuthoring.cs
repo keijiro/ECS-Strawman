@@ -1,6 +1,11 @@
 using Unity.Entities;
 using UnityEngine;
 
+public struct Dancer : IComponentData
+{
+    public float Speed;
+}
+
 public class DancerAuthoring : MonoBehaviour
 {
     public float _speed = 1;
@@ -13,9 +18,4 @@ public class DancerAuthoring : MonoBehaviour
             AddComponent(GetEntity(TransformUsageFlags.Dynamic), data);
         }
     }
-}
-
-public struct Dancer : IComponentData
-{
-    public float Speed;
 }

@@ -1,6 +1,12 @@
 using Unity.Entities;
 using UnityEngine;
 
+public struct Walker : IComponentData
+{
+    public float ForwardSpeed;
+    public float AngularSpeed;
+}
+
 public class WalkerAuthoring : MonoBehaviour
 {
     public float _forwardSpeed = 1;
@@ -18,10 +24,4 @@ public class WalkerAuthoring : MonoBehaviour
             AddComponent(GetEntity(TransformUsageFlags.Dynamic), data);
         }
     }
-}
-
-public struct Walker : IComponentData
-{
-    public float ForwardSpeed;
-    public float AngularSpeed;
 }
