@@ -21,7 +21,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.entities": {
-      "version": "1.0.10",
+      "version": "1.0.11",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -39,11 +39,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.entities.graphics": {
-      "version": "1.0.10",
+      "version": "1.0.11",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.entities": "1.0.10",
+        "com.unity.entities": "1.0.11",
         "com.unity.modules.particlesystem": "1.0.0",
         "com.unity.render-pipelines.core": "14.0.6"
       },
@@ -75,15 +75,6 @@
       "depth": 2,
       "source": "registry",
       "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.recorder": {
-      "version": "4.0.1",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.timeline": "1.0.0"
-      },
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
@@ -152,18 +143,6 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.timeline": {
-      "version": "1.7.4",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.director": "1.0.0",
-        "com.unity.modules.animation": "1.0.0",
-        "com.unity.modules.audio": "1.0.0",
-        "com.unity.modules.particlesystem": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.ugui": {
       "version": "1.0.0",
       "depth": 2,
@@ -189,12 +168,6 @@
       },
       "url": "https://registry.npmjs.com"
     },
-    "com.unity.modules.animation": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
-    },
     "com.unity.modules.assetbundle": {
       "version": "1.0.0",
       "depth": 2,
@@ -206,15 +179,6 @@
       "depth": 2,
       "source": "builtin",
       "dependencies": {}
-    },
-    "com.unity.modules.director": {
-      "version": "1.0.0",
-      "depth": 2,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.audio": "1.0.0",
-        "com.unity.modules.animation": "1.0.0"
-      }
     },
     "com.unity.modules.imgui": {
       "version": "1.0.0",
