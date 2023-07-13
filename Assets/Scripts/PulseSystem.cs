@@ -1,12 +1,9 @@
-using Unity.Burst;
 using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Transforms;
 
-[BurstCompile]
 public partial struct PulseSystem : ISystem
 {
-    [BurstCompile]
     public void OnUpdate(ref SystemState state)
     {
         var elapsed = (float)SystemAPI.Time.ElapsedTime;
