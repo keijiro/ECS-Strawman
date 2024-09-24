@@ -10,4 +10,4 @@ The tutorial video is [available on YouTube](https://www.youtube.com/watch?v=vzF
 
 ## System Requirements
 
-Unity 2022 LTS
+Unity 6
