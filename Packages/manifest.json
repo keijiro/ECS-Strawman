@@ -1,8 +1,9 @@
 {
   "dependencies": {
-    "com.unity.entities.graphics": "1.2.4",
-    "com.unity.render-pipelines.universal": "17.0.3",
-    "jp.keijiro.metatex": "1.0.4",
+    "com.unity.entities.graphics": "1.4.19",
+    "com.unity.inputsystem": "1.19.0",
+    "com.unity.render-pipelines.universal": "17.3.0",
+    "jp.keijiro.metatex": "1.0.7",
     "com.unity.modules.uielements": "1.0.0"
   },
   "scopedRegistries": [
